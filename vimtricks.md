@@ -13,6 +13,7 @@
  - `%` Jump to corresponding item ((),{},[])
  - `.` Repeat previous command
  - `*` Search for next occurance under cursor
+ - `#` Search for previous occurance under cursor
  - `%` Move cursor to the first character of line
  - `$` Move cursor to the last character of line
  - `gi` Go insert mode where you were last insert mode
