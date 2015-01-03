@@ -24,3 +24,6 @@
  - `zz` Move cursor to center of screen
  - `zt` Move cursor to top of screen
  - `zb` Move cursor to bottom of screen
+ - `:jumps` Jump list
+ - <number>`Ctrl-o` - Jump to <number> backwards element in jump list
+ - <number>`Ctrl-i` - Jump to <number> forwards element in jump list
