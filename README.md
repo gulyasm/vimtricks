@@ -27,3 +27,32 @@
  - `:jumps` Jump list
  - <number>`Ctrl-o` - Jump to <number> backwards element in jump list
  - <number>`Ctrl-i` - Jump to <number> forwards element in jump list
+ - `{` Move to start of previous paragraph or code block.
+ - `}` Move to end of next paragraph or code block.
+ - `Ctrl+F` Move forward one screenful.
+ - `Ctrl+B` Move backward one screenful.
+
+## Search:
+ - / search
+ - ? search
+
+ - `gi` insert mode where insert mode was exited last time
+ - `gJ` lines without space
+ - `ga` ASCII code of the character under cursor
+ - `gf` editing the file under the cursor
+ - `[I` Show lines with matching word under cursor
+ - `:grep Vim *.md` and after `:copen` to open grep result in quickfix
+
+## Moving until search term
+ - `y/search<Enter>`
+ - `y?search<Enter>`
+ - `d/search<Enter>`
+ - `d?search<Enter>`
+ - `c/search<Enter>`
+ - `c?search<Enter>`
+
+## Other
+ - `!sort` sort visually selected lines
+
+## .vimrc
+ - `inoremap jj <Esc>`
