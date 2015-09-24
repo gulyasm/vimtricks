@@ -10,6 +10,7 @@
  - `gg` Go to start of the document
  - `G` Go to end of the document
  - `J` Join lines
+ - `gJ` Join lines without inserting space
  - `%` Jump to corresponding item ((),{},[])
  - `.` Repeat previous command
  - `*` Search for next occurance under cursor
@@ -31,6 +32,7 @@
  - `}` Move to end of next paragraph or code block.
  - `Ctrl+F` Move forward one screenful.
  - `Ctrl+B` Move backward one screenful.
+ - `~` Toggle case under cursor
 
 ## Search:
  - / search
