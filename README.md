@@ -35,6 +35,12 @@
  - `Ctrl+F` Move forward one screenful.
  - `Ctrl+B` Move backward one screenful.
  - `~` Toggle case under cursor
+ - `o` Edit in a new line below the current
+ - `O` Edit in a new line above the current
+ - `:r`[name] Insert the file [name] below the cursor.
+ - `~`  Switch case of the character under the cursor and move the cursor to the right. If a [count] is given, do that many characters. 
+ - `D` Delete until end of line
+ - `dG` Delete until end of file
 
 ## Search:
  - / search
