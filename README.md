@@ -3,6 +3,8 @@
  - `gg=G` Indent all rows
  - `==` Indent current row
  - `zz` Current line to center
+ - `zt` Current line to top
+ - `zb` Current line to bottom
  - `ZZ` Save and quit
  - `ciw` Change word
  - `ci"` Change everything inside double quotes (Works with other characters)
