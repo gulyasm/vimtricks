@@ -41,6 +41,7 @@
  - `~`  Switch case of the character under the cursor and move the cursor to the right. If a [count] is given, do that many characters. 
  - `D` Delete until end of line
  - `dG` Delete until end of file
+ - `R` Go to overwriting mode (edit mode but doesn't insert text but overwrites)
 
 ## Search:
  - / search
